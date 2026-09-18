@@ -141,8 +141,6 @@ namespace اذكاري
                 btnReset.Width = btnZeker.Width;
                 btnReset.Height = 30;
                 btnReset.Location = new Point(btnZeker.Location.X ,btnZeker.Location.Y + btnZeker.Height + 10);
-                // btnReset.BackgroundImage = Image.FromFile(@"C:\Users\user\OneDrive\Desktop\ABO-HADHOD\C#-level1\Projects\اذكاري\download (1).png");
-              // btnReset.BackgroundImageLayout = ImageLayout.Stretch;
                 btnReset.Text = "اعادة";
                 btnReset.Font = new Font("Segoe UI", 12 , FontStyle.Bold);
                 ResetList.Add(btnReset);

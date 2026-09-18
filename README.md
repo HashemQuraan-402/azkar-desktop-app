@@ -54,7 +54,7 @@ The project was developed as a practical learning application to demonstrate C#,
 ## Project Structure
 
 ```text
-azkar/
+azkar-desktop-app/
 ├── Models/
 │   ├── Azkar.cs              # Adhkar session state
 │   ├── Masbaha.cs            # Tasbih session data
@@ -93,8 +93,8 @@ The current version stores completion and tasbih history in memory during the ac
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/HashemQuraan-402/azkar.git
-cd azkar
+git clone https://github.com/HashemQuraan-402/azkar-desktop-app.git
+cd azkar-desktop-app
 ```
 
 You can also clone it through GitHub Desktop.
@@ -189,4 +189,3 @@ No database, API key, account, or external service is required.
 
 - GitHub: [HashemQuraan-402](https://github.com/HashemQuraan-402)
 - LinkedIn: [hashem-quraan-b561453ab](https://www.linkedin.com/in/hashem-quraan-b561453ab)
-
