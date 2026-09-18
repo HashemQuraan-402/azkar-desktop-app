@@ -1,9 +1,5 @@
 Azkar — Arabic Dhikr Desktop Application
 
-
-
-
-
 Azkar is an Arabic Windows desktop application for reading and tracking morning and evening adhkar. It includes repetition counters, completion progress, a customizable tasbih counter, session history, and text-file export.
 
 The project was developed as a practical learning application to demonstrate C#, object-oriented programming, event-driven user interfaces, collections, service classes, and file handling.
@@ -74,21 +70,7 @@ In-memory collections and data binding
 
 Project Structure
 
-azkar/
-├── Models/
-│   ├── Azkar.cs              # Adhkar session state
-│   ├── Masbaha.cs            # Tasbih session data
-│   └── Zeker.cs              # Individual dhikr data and counter state
-├── Services/
-│   ├── AzkarServices.cs      # Overall completion evaluation
-│   └── ZekerService.cs       # Morning/evening content and item completion
-├── Properties/               # Application resources and settings
-├── Form1.cs                  # Main application behavior and event handling
-├── Form1.Designer.cs         # Windows Forms UI definition
-├── Program.cs                # Application entry point
-├── App.config                # .NET Framework runtime configuration
-├── اذكاري.csproj             # C# project file
-└── اذكاري.sln                # Visual Studio solution
+azkar/ ├── Models/ │ ├── Azkar.cs # Adhkar session state │ ├── Masbaha.cs # Tasbih session data │ └── Zeker.cs # Individual dhikr data and counter state ├── Services/ │ ├── AzkarServices.cs # Overall completion evaluation │ └── ZekerService.cs # Morning/evening content and item completion ├── Properties/ # Application resources and settings ├── Form1.cs # Main application behavior and event handling ├── Form1.Designer.cs # Windows Forms UI definition ├── Program.cs # Application entry point ├── App.config # .NET Framework runtime configuration ├── اذكاري.csproj # C# project file └── اذكاري.sln # Visual Studio solution
 
 Design Overview
 
@@ -114,21 +96,17 @@ Visual Studio with the .NET desktop development workload
 
 Git, if cloning the repository
 
-1. Clone the Repository
-
-git clone https://github.com/HashemQuraan-402/azkar.git
-cd azkar
+Clone the Repository
+git clone https://github.com/HashemQuraan-402/azkar.git cd azkar
 
 You can also clone it through GitHub Desktop.
 
-2. Open the Solution
-
+Open the Solution
 Open the following file in Visual Studio:
 
 اذكاري.sln
 
-3. Build the Application
-
+Build the Application
 In Visual Studio, select:
 
 Build > Build Solution
@@ -139,8 +117,7 @@ Ctrl + Shift + B
 
 A successful build should finish with 0 Failed.
 
-4. Run the Application
-
+Run the Application
 Press F5 or select the green Start button in Visual Studio.
 
 No database, API key, account, or external service is required.
@@ -234,4 +211,3 @@ Hashem Quraan
 GitHub: HashemQuraan-402
 
 LinkedIn: hashem-quraan-b561453ab
-
